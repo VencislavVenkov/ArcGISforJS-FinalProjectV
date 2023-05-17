@@ -24,4 +24,18 @@ require([
     })
 
     view.ui.add(homebutton, "top-left")
+
+    const legend = new Legend({
+        view: view
+    })
+
+    view.ui.add(legend, "bottom-right")
+
+    const scalebar = new ScaleBar({
+        view: view,
+        unit: "metric",
+        style: "ruler"
+    })
+
+    view.ui.add(scalebar, "bottom-left")
 })
