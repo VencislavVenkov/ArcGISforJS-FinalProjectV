@@ -8,6 +8,7 @@ body,
 }
 #layerList-btn, #basemap-btn, #legend-btn {
     padding: 6px;
+    cursor: pointer;
 }
 
 .esri-component.esri-layer-list.esri-widget.esri-widget--panel{
