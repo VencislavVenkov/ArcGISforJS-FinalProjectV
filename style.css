@@ -6,3 +6,16 @@ body,
     height: 100%;
     width: 100%;
 }
+#layerList-btn, #basemap-btn, #legend-btn {
+    padding: 6px;
+}
+
+.esri-component.esri-layer-list.esri-widget.esri-widget--panel{
+    display: none;
+}
+
+.esri-basemap-gallery{
+    display: none;
+    position: absolute;
+    top: 40px
+}
